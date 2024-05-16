@@ -8,6 +8,8 @@ Wanderwave is a revolutionary mobile application designed to diversify users mus
 
 Wanderwave enables users to step outside algorithm-driven recommendations from typical music services, fostering a more explorative and interactive music discovery process. Users can share music through beacons placed in real-world locations and enjoy culturally significant music tailored to their surroundings. The app supports both online and offline modes, ensuring seamless music discovery regardless of connectivity.
 
+The initial version of Wanderwave will be free to use, as it relies on the Spotify API, which prohibits monetization. The goal of the MVP is to implement the basic features of the app, including dropping and retrieving songs from beacons, viewing others' profiles, liking and disliking songs, and playing music. By focusing on these core functionalities, Wanderwave aims to establish a solid user base and gather feedback for further development.
+
 *Describe succinctly and precisely its purpose.*
 
 The primary purpose of Wanderwave is to expand users' musical horizons by providing a platform that encourages the discovery of diverse musical genres and artists. By integrating social interactions, the app enhances the music discovery process, making it more engaging and enjoyable.
