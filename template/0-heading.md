@@ -1,4 +1,4 @@
-# MVP PRD: Project Name
+# MVP PRD: Wanderwave
 
 *[2024.04.20]*
 

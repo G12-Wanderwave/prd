@@ -3,6 +3,7 @@
 ## Personas and Scenarios
 
 *Who are the target personas for this product?*
+Spotify users that are unsatisfied with the recommendation system.
 
 *Which is the key persona?*
 
