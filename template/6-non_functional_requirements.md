@@ -13,7 +13,8 @@
 ## Adoptions, Scalability and Availability
 
 *What kind of traffic patterns do you expect to see?*
-
+- People in cities will be more concerned
+- 
 
 *Are there known periods of bursty traffic that the MVP must be designed to support?*
-
+- Summer will always have more activity because it's a displacement app
