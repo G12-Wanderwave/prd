@@ -7,6 +7,7 @@ Number of new users
 Number of active users/Number of inactive accounts
 Number of songs dropped/received
 Play Store reviews
+Probably not accessible via API, but there is a metric in the Spotify EOY review that shows how many new artists and genres were discovered by each user
 
 
 *What is the success criteria?*
