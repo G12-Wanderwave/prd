@@ -2,16 +2,16 @@
 
 Monetizing WanderWave poses challenges due to the restrictions imposed by Spotify's [Terms & Services](https://developer.spotify.com/policy), which prohibit generating revenue directly from their API.
 
-### Expected Operating Costs
+## Expected Operating Costs
 <ul>
   <li>_Google API Requests:_ This includes costs associated with Firebase, Maps, and Places.</li>
   <li>_Advertising Expenses:_ Budget required for promoting the app.</li>
 </ul>
 
-### Revenue Streams
+## Revenue Streams
 
 #### Maintaining the Current Concept
-Keeping the app's concept as is, the primary revenue generation strategy is to sell the app to Spotify. This approach requires:
+Keeping the app's concept as is, the primary revenue generation strategy would be to sell the app to Spotify. This approach requires:
 
 <ul>
   <li>_Significant User Engagement:_ We must create a highly engaging user experience to demonstrate the app's value to Spotify.</li>
