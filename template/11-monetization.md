@@ -1,16 +1,30 @@
 # Business Model
 
-Spotify API ToS don't allow monetization
+Monetizing WanderWave poses challenges due to the restrictions imposed by Spotify's [Terms & Services](https://developer.spotify.com/policy), which prohibit generating revenue directly from their API.
 
+### Expected Operating Costs
+<ul>
+  <li>__Google API Requests:__ This includes costs associated with Firebase, Maps, and Places.</li>
+  <li>__Advertising Expenses:__ Budget required for promoting the app.</li>
+</ul>
 
-* Monetization will be hard for WanderWave, as the Spotify Terms & Services
-  don't allow API users to make money off of it [insert link to ToS here].
+### Revenue Streams
 
-*Expected operating Costs*
-Google API requests (Firebase, Maps, Places)
-Advertising
+#### Maintaining the Current Concept
+Keeping the app's concept as is, the primary revenue generation strategy is to sell the app to Spotify. This approach requires:
 
-*Revenue Streams*
-Only possible way to make money: sell the app to Spotify
-    Need to create very significant user engagement to demonstrate value
-    Risky: need to invest a lot of money without any guarantees
+<ul>
+  <li>__Significant User Engagement:__ We must create a highly engaging user experience to demonstrate the app's value to Spotify.</li>
+  <li>__High Investment Risk:__ Substantial upfront investment is needed, with no guarantee of a return.</li>
+</ul>
+
+#### Alternative Approach
+To circumvent the restrictions imposed by Spotify, an alternative strategy would be to:
+
+<ul>
+  <li>Remove Spotify Integration: Replace the Spotify API with a proprietary repository of songs, ensuring no reliance on external music providers.</li>
+</ul>
+  
+This shift could open up other monetization avenues, such as in-app purchases, subscription models, or ad-based revenue, while staying within legal boundaries.
+
+Both approaches have their own set of challenges and risks. The current approach aims at a high-stakes acquisition, while the alternative focuses on building a sustainable revenue model independently of Spotify.
