@@ -5,11 +5,13 @@
 We are using room, mockito and the relevant spotify, firebase and google maps libraries. The app is maily coded for android on jetpack compose koltlin with some little code for the backend firebase functions in javascript. 
 
 The main components are the 3 main screens : 
+
 - The map screen representing the beacons
 - The track lists screen representing the different playlists of the user
 - The profile screen representing a user profile.
 
 There are some subscreens : 
+
 - The login screen
 - The beacon screen to show the content of a beacons
 - The edit profile screen
@@ -24,6 +26,7 @@ The backend is composed of 2 big blocks :
 The spotify API is mainly used to retreive songs, we have to capacity to create playlists from the app as well.
 
 Here are the informations we need : 
+
 - Tracks, authors, albums and user playlists informations
 - On device player status (playing, skiping ...)
 - Authentication with spotify
@@ -31,6 +34,7 @@ Here are the informations we need :
 #### Firebase
 
 3 types of things stored on firebase :
+
 - Beacons 
 - Profiles
 - Tracks
