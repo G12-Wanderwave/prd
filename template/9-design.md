@@ -2,9 +2,18 @@
 
 ## Frontend
 
-*List the key libraries, languages, components used by the MVP.*
+We are using room, mockito and the relevant spotify, firebase and google maps libraries. The app is maily coded for android on jetpack compose koltlin with some little code for the backend firebase functions in javascript. 
 
-*If applicable, describe essential screens.*
+The main components are the 3 main screens : 
+- The map screen representing the beacons
+- The track lists screen representing the different playlists of the user
+- The profile screen representing a user profile.
+
+There are some subscreens : 
+- The login screen
+- The beacon screen to show the content of a beacons
+- The edit profile screen
+- The loading screen
 
 ## Backend
 
