@@ -23,33 +23,33 @@ Out of these, the key persona is the Music Enthusiast who are always on the look
 
 ### User Stories:
 
-<ul>
-  <li>1. As a user, I want to discover new music based on my location so that I can explore different genres and artists.</li>
-  <li>2. As a user, I want to drop songs at specific locations so that others can discover them.</li>
-  <li>3. As a user, I want to view profiles of other users to see their music tastes and shared songs.</li>
-  <li>4. As a user, I want to like or dislike songs to provide feedback to the community.</li>
-  <li>5. As a user, I want to access the app offline so that I can discover music without internet connectivity.</li>
-</ul>
+
+1. As a user, I want to discover new music based on my location so that I can explore different genres and artists.
+2. As a user, I want to drop songs at specific locations so that others can discover them.
+3. As a user, I want to view profiles of other users to see their music tastes and shared songs.
+4. As a user, I want to like or dislike songs to provide feedback to the community.
+5. As a user, I want to access the app offline so that I can discover music without internet connectivity.
+
 
 ### Key Features:
 
-<ul>
-  <li>1. Location-based music discovery</li>
-  <li>2. Song dropping and retrieval</li>
-  <li>3. User profiles and social interactions</li>
-  <li>4. Liking and disliking songs</li>
-  <li>5. Offline mode</li>
-</ul>
+
+1. Location-based music discovery
+2. Song dropping and retrieval
+3. User profiles and social interactions
+4. Liking and disliking songs
+5. Offline mode
+
 
 ### Justification:
 
-<ul>
-  <li>1. Location-based music discovery is the core feature that sets Wanderwave apart from other music apps.</li>
-  <li>2. Song dropping and retrieval encourage community interaction and engagement.</li>
-  <li>3. User profiles and social features enhance the sense of community.</li>
-  <li>4. Liking and disliking songs provide valuable feedback and improve the user experience.</li>
-  <li>5. Offline mode ensures usability in all conditions, crucial for commuters and travelers.</li>
-</ul>
+
+1. Location-based music discovery is the core feature that sets Wanderwave apart from other music apps.
+2. Song dropping and retrieval encourage community interaction and engagement.
+3. User profiles and social features enhance the sense of community.
+4. Liking and disliking songs provide valuable feedback and improve the user experience.
+5. Offline mode ensures usability in all conditions, crucial for commuters and travelers.
+
 
 ## Success Criteria
 
@@ -62,11 +62,10 @@ Out of these, the key persona is the Music Enthusiast who are always on the look
 
 ## Features Outside the Scope
 
-<ul>
-  <li>1. Integration with multiple music providers other than Spotify.</li>
-  <li>2. Advanced social features such as messaging or group playlists.</li>
-  <li>3. Monetization features such as in-app purchases or premium subscriptions.</li>
-</ul>
+
+1. Integration with multiple music providers other than Spotify.
+2. Advanced social features such as messaging or group playlists.
+3. Monetization features such as in-app purchases or premium subscriptions.
 
 Adding multiple music providers will first require to add even more modularity to our app, which ideally should allow us to simply plug in any music API. One obvious limitation would be the discrepancies, but that can be remediated by either only displaying available songs, or by using a free service as a fallback. Once implemented, it will significantly widen the market.
 Social features are also very important, as they will help with growth. Indeed, if users have a way to use the app with other people it will encourage them to spread the word. This should be one of our top priorities once the base app is ready.
