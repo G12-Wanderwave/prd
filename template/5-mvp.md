@@ -68,6 +68,8 @@ Out of these, the key persona is the Music Enthusiast who are always on the look
 3. Monetization features such as in-app purchases or premium subscriptions.
 
 Adding multiple music providers will first require to add even more modularity to our app, which ideally should allow us to simply plug in any music API. One obvious limitation would be the discrepancies, but that can be remediated by either only displaying available songs, or by using a free service as a fallback. Once implemented, it will significantly widen the market.
+
 Social features are also very important, as they will help with growth. Indeed, if users have a way to use the app with other people it will encourage them to spread the word. This should be one of our top priorities once the base app is ready.
+
 Finally monetization is needed to make the project viable in the long run, however we are currently unable to generate income, as explained later in "Monetization".
 
