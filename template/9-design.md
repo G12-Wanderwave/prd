@@ -2,13 +2,13 @@
 
 ## Frontend
 
-We are using room, mockito and the relevant spotify, firebase and google maps libraries. The app is maily coded for android on jetpack compose koltlin with some little code for the backend firebase functions in javascript. 
+We are using Room, Mockito and the relevant Spotify, Firebase and Google Maps libraries and APIs. The app is mainly coded for Android in Kotlin using Jetpack Compose, with a little bit of code for the backendFfirebase functions in JavaScript. 
 
 The main components are the 3 main screens : 
 
-- The map screen representing the beacons
-- The track lists screen representing the different playlists of the user
-- The profile screen representing a user profile.
+- The map screen displaying the beacons
+- The track lists screen displaying the user's playlists
+- The profile screen displaying the user profile.
 
 There are some subscreens : 
 
@@ -23,7 +23,7 @@ The backend is composed of 2 big blocks :
 
 #### Spotify
 
-The spotify API is mainly used to retreive songs, we have to capacity to create playlists from the app as well.
+The Spotify API is mainly used to retrieve songs and create playlists from the app.
 
 Here are the informations we need : 
 
@@ -33,7 +33,7 @@ Here are the informations we need :
 
 #### Firebase
 
-3 types of things stored on firebase :
+There are three types of documents stored on firebase :
 
 - Beacons 
 - Profiles
@@ -43,28 +43,22 @@ Profiles and beacons contain tracks and need to be linked to them with firebase 
 
 ## Data Model
 
-*What data are you collecting / managing?*
 We collect data locally, with the different tracks player, we manage it ourselves. We are using the spotify API and firebase to store the dataobject automatically. They are stored exactly as they are stored locally, with backend and frontend variables corresponding to each other.
 
-*How is it organised?*
 The different dataclasses represent objects in the application like beacons or profiles.
 They each contain sub dataclasses items, like for example playlists, or for beacons track and profiles assotiations representing the liked songs by a certain profile.
 
-*Where is it stored?*
 Some data is stored locally, by caching the songs that were played recently using a room database.
 The sharing of the actual app data is all done via firebase, the caching as well. We also have some data sent to spotify as playlists.
 
 ## Security Considerations
-Because we use the location, people will be concerned by this.
-We don't store the location online but we store who share which songs on which beacon, which has a location.
-This means that the profiles that are not public shouldn't be shown
+We will need to protect user's location, as data collected from their interactions with beacons could be used to reconstruct their path.
 
 ## Infrastructure and Deployment
 
-The application is developed using github CI/CD tools. The CI is setup using an emulator directly on github servers. As we have to send the app to the google store the CD is largely the same as other android app using the same schema.
+The application is developed using github CI/CD tools. The CI is setup using an emulator directly on github servers. As we intend to upload the app to the Google Playstore, the CD is largely the same as other Android apps using the same schema.
 
 ## Test Plan
 
-We have extensive end-to-end tests. And as we use a lot the APIs and the back end, we have extensive mocking of the different intefaces to have thourough testing of everything on the app. 
-The UI is using the maps API so we have to also testing as much as possible.
+We have extensive end-to-end tests. And as we rely a lot on the APIs and the backend, we implemented extensive mocking of the different intefaces to enable thorough testing of the whole app.
 

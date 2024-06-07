@@ -4,9 +4,9 @@
 
 Before releasing the app, we will need to make sure that it complies with many different legal frameworks, such as LPD[^1], GDPR[^2] or CCPA[^3] to only name a few.
 
-*What are your internal policies?*
+In our app we allow user to choose whether or not they are visible by others, with what we called "private mode". This still allows music-sharing, but anonymously. Currently all user data is stored in their profile, which means that deleting it is sufficient to completely erase a user's data.
 
-*Which privacy features do you need from the phone?*
+On the client-side, we require access to the user's location and notifications. Whilst we don't store any location data directly (all computations happen on the client), using data from the beacons (such as songs dropped and retreived) could theoretically allow to reconstruct a user's path. Therefore it will be very important to secure that information as well.
 
 [^1]:https://fedlex.data.admin.ch/eli/cc/2022/491
 [^2]:https://gdpr-info.eu/

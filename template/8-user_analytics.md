@@ -50,25 +50,24 @@
 ## Analysis Plan
 
 **Data Collection Methods**:
-  <ul>
-    <li>Implement analytics tools (e.g., Google Analytics, Firebase) to track user activities and interactions within the app.
-    <li>Use server logs and backend data to monitor song sharing activities.
-    <li>Regularly extract and analyze data from Play Store reviews.
-    <li>Explore integration with Spotify API to gather data on new artists and genres discovered by users.</li>
-  </ul>
+
+  - Implement analytics tools (e.g., Google Analytics, Firebase) to track user activities and interactions within the app.
+  - Use server logs and backend data to monitor song sharing activities.
+  - Regularly extract and analyze data from Play Store reviews.
+  - Explore integration with Spotify API to gather data on new artists and genres discovered by users.
 
 **Data Analysis Techniques**:
-  <ul>
-    <li>Perform cohort analysis to understand user retention over time.
-    <li>Use funnel analysis to identify drop-off points in the user journey.
-    <li>Conduct user segmentation to identify different user groups and their behaviors.</li>
-  </ul>
+  
+  - Perform cohort analysis to understand user retention over time.
+  - Use funnel analysis to identify drop-off points in the user journey.
+  - Conduct user segmentation to identify different user groups and their behaviors.
+  
 
 **Reporting**:
-  <ul>
-    <li>Create dashboards to visualize key metrics and track progress towards success criteria.
-    <li>Regularly review and update the analysis to adapt to new findings and user behaviors.</li>
-  </ul>
+  
+  - Create dashboards to visualize key metrics and track progress towards success criteria.
+  - Regularly review and update the analysis to adapt to new findings and user behaviors.
+  
 
 ## A/B Testing Ideas
 
