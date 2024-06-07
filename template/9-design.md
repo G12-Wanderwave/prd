@@ -61,4 +61,3 @@ The application is developed using github CI/CD tools. The CI is setup using an 
 ## Test Plan
 
 We have extensive end-to-end tests. And as we rely a lot on the APIs and the backend, we implemented extensive mocking of the different intefaces to enable thorough testing of the whole app.
-
