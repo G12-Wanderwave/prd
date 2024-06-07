@@ -1,8 +1,14 @@
 # Functional Requirements
 
-*Max 3 pages.*
+## Key features:
 
-*List the key features of the MVP precisely.*
+<ul>
+  <li>Location-based music discovery</li>
+  <li>Song dropping and retrieval</li>
+  <li>User profiles and social interactions</li>
+  <li>Liking and disliking songs</li>
+  <li>Offline mode</li>
+</ul>
 
 *Include appropriate architectural diagrams.*
 

@@ -1,8 +1,6 @@
 # History
 
-*Maximum 1 page*
-
-*Describe the V1 POC as planned by Sprint10.*
+The V1 Proof of Concept was planned with the objective of validating the core idea of location-based music sharing. The focus was on creating a basic prototype that could demonstrate the functionality of dropping and retrieving songs from beacons, and the ability to play music using the Spotify API.
 
 *What did you learn?*
 

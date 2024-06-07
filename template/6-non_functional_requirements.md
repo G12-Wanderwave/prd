@@ -2,19 +2,18 @@
 
 ## Security, privacy, and data retention policies
 
-*Which are the applicable laws and regulations?*
-- Because we use the spotify api we are limited
+Before releasing the app, we will need to make sure that it complies with many different legal frameworks, such as LPD[^1], GDPR[^2] or CCPA[^3] to only name a few.
 
 *What are your internal policies?*
 
 *Which privacy features do you need from the phone?*
-- We need the localisation, we probably need to secure the information
+
+[^1]:https://fedlex.data.admin.ch/eli/cc/2022/491
+[^2]:https://gdpr-info.eu/
+[^3]:https://oag.ca.gov/privacy/ccpa
+
 
 ## Adoptions, Scalability and Availability
 
-*What kind of traffic patterns do you expect to see?*
-- People in cities will be more concerned
-- 
-
-*Are there known periods of bursty traffic that the MVP must be designed to support?*
-- Summer will always have more activity because it's a displacement app
+Most of the usage will likely be during peak commuting hours and increase linearly with population density. We also expect higher usage in summer due to the fact that people tend to go out and travel more during that time.
+With this in mind, we will need to ensure that our backend can handle wide traffic pattern variations, both at a daily and yearly scale.
