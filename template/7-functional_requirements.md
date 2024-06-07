@@ -10,7 +10,3 @@
   <li>Offline mode</li>
 </ul>
 
-*Include appropriate architectural diagrams.*
-
-*Describe key internal functionality.*
-
